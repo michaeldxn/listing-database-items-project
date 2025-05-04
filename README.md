@@ -18,7 +18,6 @@ Project instructions:
 - Retrieves jokes from a MySQL database using a `SELECT` query
 - Uses **PDO** with a `try-catch` block to handle database connection and query errors
 - Sends error messages to a separate `error.html.php` page for user-friendly error handling
-- Utilizes a `while` loop and `fetch(PDO::FETCH_ASSOC)` to get result rows as associative arrays
 - Outputs data securely using `htmlspecialchars()` to protect against Cross-Site Scripting (XSS)
 - Separates logic (controller) and presentation (view) using an MVC-style structure
 - Displays results in the `jokes.html.php` file using `foreach` and HTML `<blockquote>` tags
