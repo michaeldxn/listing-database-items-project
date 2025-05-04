@@ -1,0 +1,4 @@
+host: localhost 
+database name: listing-database-items-project
+user name: michael
+password: 20123790
